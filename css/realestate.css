@@ -1,0 +1,539 @@
+/*!
+ * Real Estate v1.0.0 (http://deviodigital.com)
+ * Copyright 2015 Devio Digital
+ * Licensed under GPL 2.0
+ */
+
+body {
+	background: #f8f8f8;
+	color: #666;
+	font: 400 18px/1.5 'Open Sans', sans-serif;
+}
+
+a,
+a:visited,
+a:link {
+	color: #1bb868;
+}
+
+a:hover {
+	color: #1fd377;
+}
+
+p {
+	margin: 0 0 12px 0;
+}
+
+span {
+	color: #1bb868;
+}
+
+hr {
+    border-color: #11b868;
+    border-width: 3px;
+    max-width: 50px;
+	margin: 30px auto;
+}
+
+img {
+	/*max-height: auto;*/
+	max-width: 100%;
+	-ms-interpolation-mode: bicubic;
+}
+
+embed,
+object,
+video {
+	max-width: 100%;
+	_width: 100%;
+}
+
+iframe {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.row.centered {
+	text-align: center;
+}
+
+/* ---------------------------------------------- /*
+ * Buttons
+/* ---------------------------------------------- */
+
+button {
+	margin-top: 24px;
+}
+
+.btn {
+	background: transparent;
+	border: 2px solid #1bb868;
+	border-radius: 0;
+	color: #1bb868;
+	padding: 10px 30px;
+}
+
+.btn:hover {
+	background: #1bb868;
+	border: 2px solid #1bb868;
+	color: #FFF;
+}
+
+.btn.alt {
+	background: #1bb868;
+	border: 2px solid #1bb868;
+	border-radius: 0;
+	color: #FFF;
+	padding: 10px 30px;
+}
+
+.btn.alt:hover {
+	background: #1fd377;
+	border: 2px solid #1fd377;
+	color: #FFF;
+}
+
+.btn.full {
+	width: 100%;
+}
+
+.btn-lg {
+	font: 700 24px/1.6 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+/* ---------------------------------------------- /*
+ * Typography
+/* ---------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	font: 700 30px/1.2 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	margin: 12px 0;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0 0 30px;
+}
+
+h2.center {
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: 0 0 5px;
+}
+
+h4 {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+h6 {
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+/* ---------------------------------------------- /*
+ * Header
+/* ---------------------------------------------- */
+
+header.header {
+	background: #FFF;
+	padding: 12px 0;
+}
+
+header.header h3 {
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: 12px 0;
+}
+
+header.header .title h3,
+header.header h3 span {
+	font-weight: 700;
+}
+
+header.header .right {
+	text-align: right;
+}
+
+/* ---------------------------------------------- /*
+ * Photo
+/* ---------------------------------------------- */
+
+#photo {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* ---------------------------------------------- /*
+ * Intro
+/* ---------------------------------------------- */
+
+#intro {
+	float: left;
+	padding: 48px 0;
+	width: 100%;
+}
+
+#intro h3 {
+	margin-top: 36px;
+}
+
+#countdown {
+	margin-bottom: 24px;
+}
+
+#countdown span {
+	color: #666;
+	font-size: 26px;
+	font-weight: normal;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+/* ---------------------------------------------- /*
+ * Map
+/* ---------------------------------------------- */
+
+#map {
+	float: left;
+	height: 400px;
+	margin: 0 0 72px 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.overlay {
+    background: transparent;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    top: 400px;
+    margin-top: -400px;
+    z-index: 1;
+}
+
+#map iframe {
+    height: 170%!important;
+	max-height: 170% !important;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%!important;
+    z-index: -1;
+}
+
+/* ---------------------------------------------- /*
+ * Details
+/* ---------------------------------------------- */
+
+#details {
+	float: left;
+	padding: 24px 0 72px 0;
+	width: 100%;
+}
+
+ul.info li {
+	display: block;
+	font-family: 'Open Sans',sans-serif;
+	margin-bottom: 19px;
+	text-align: left;
+}
+
+ul.info li.fa-check:before {
+	color: #1bb868;
+	font-family: FontAwesome;
+	font-size: 18px;
+	margin-right: -5px;
+	margin-left: -27px;
+	position: relative;
+	top: 0px;
+	left: -15px;
+}
+
+.inclusions {
+	margin-top: 96px;
+}
+
+/* ---------------------------------------------- /*
+ * Video
+/* ---------------------------------------------- */
+
+#video {
+	background: #FFF;
+	float: left;
+	padding: 72px 0;
+	width: 100%;
+}
+
+#video h1 {
+	margin: 24px 0 12px 0;
+}
+
+/* ---------------------------------------------- /*
+ * Agents
+/* ---------------------------------------------- */
+
+#agents {
+	float: left;
+	padding: 36px 0;
+	width: 100%;
+}
+
+#agents .row {
+	padding: 36px 0;
+}
+
+#agents img {
+	border-radius: 100px;
+}
+
+#agents .col-lg-6 {
+	padding-right: 30px;
+}
+
+span.phone,
+span.email {
+	padding: 3px 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-moz-margin-before: 0;
+	-moz-margin-after: 0;
+	-webkit-margin-start: 0;
+	-moz-margin-start: 0;
+}
+
+span.phone {
+	padding-right: 12px;
+}
+
+span.phone:before {
+    color: #4d4c47;
+    content: '\f095';
+    display: inline-block;
+    font-family: FontAwesome;
+    margin: 0 12px 0 0;
+}
+
+span.email:before {
+    color: #4d4c47;
+    content: '\f0e0';
+    display: inline-block;
+    font-family: FontAwesome;
+    margin: 0 12px 0 0;
+}
+
+/* ---------------------------------------------- /*
+ * Logos
+/* ---------------------------------------------- */
+
+#logos {
+	background: #FFF;
+	float: left;
+	padding: 24px 0;
+	width: 100%;
+}
+
+#logos p {
+	margin: 0;
+	padding: 0;
+}
+
+#logos a {
+	margin: 0 20px;
+}
+
+/* ---------------------------------------------- /*
+ * Copyright
+/* ---------------------------------------------- */
+
+#copyright {
+	background: #222;
+	color: #f8f8f8;
+	float: left;
+	font: 400 14px/1.2 'Open Sans', sans-serif;
+	padding: 12px 0;
+	width: 100%;
+}
+
+#copyright p {
+	margin: 0;
+	padding: 0;
+}
+
+#copyright .right {
+	text-align: right;
+}
+
+
+/* ---------------------------------------------- /*
+ * Scroll to top
+/* ---------------------------------------------- */
+
+.scroll-up {
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 2em;
+	right: 2em;
+}
+
+.scroll-up a {
+	background-color: rgba(135, 135, 135, 0.5);
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #11b868;
+}
+
+/* ---------------------------------------------- /*
+ * Responsive
+/* ---------------------------------------------- */
+
+@media (max-width: 768px) {
+	header.header .col-md-6,
+	#copyright .col-lg-6,
+	#details .col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-6.pic {
+		text-align: center;
+	}
+
+	.video-wrapper {
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 0;
+		position: relative;
+	}
+
+	.video-wrapper iframe {
+		height: 100%;
+		position: absolute;
+			top: 0;
+			left: 0;
+		width: 100%;
+	}
+
+	#agents {
+		text-align: center;
+	}
+
+	#agents img {
+		margin-bottom: 12px;
+	}
+}
+
+@media (max-width: 710px) {
+/* Added so the countdown drops every item to it's own line instead of one by one */
+
+	#countdown span {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 568px) {
+
+	header.header .col-md-6,
+	#copyright .col-lg-6,
+	#details .col-md-6 {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+
+	.col-md-6.text,
+	.col-md-6.pic {
+		margin: 0 0 36px 0;
+	}
+
+	.inclusions {
+		margin-top: 0;
+	}
+
+	#details {
+		padding: 0 0 48px 0;
+	}
+
+	.scroll-up {
+		bottom: 10px;
+		right: 10px;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+}
+
+#featured-video {
+	transition: width .2s ease-in-out, height .2s ease-in-out, transform .38s ease-in-out;
+}
+#featured-video.is-sticky {
+	transition: width .2s ease-in-out, height .2s ease-in-out, transform .38s ease-in-out;
+
+	position: fixed;
+	top: 15px;
+	left: auto;
+	right:0;
+	max-width: 280px;
+	max-height: 158px;
+	width: 480px;
+	height: 270px;
+	z-index:9999;
+
+	-webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.43);
+	box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.43);
+}
+
+/*@media screen and (min-width: 1120px) {*/
+	/*.is-sticky {*/
+		/*transform: translateX(-80%);*/
+	/*}*/
+/*}*/
+/*@media screen and (min-width: 1300px) {*/
+	/*.is-sticky {*/
+		/*transform: translateX(-115%);*/
+	/*}*/
+/*}*/
