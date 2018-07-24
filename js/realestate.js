@@ -87,6 +87,10 @@ $(function () {
             );
         });
 
+        $('form').on('submit',function (){
+            fbq('track', 'Lead');
+        })
+
 
 })
 
