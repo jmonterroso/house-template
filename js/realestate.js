@@ -81,7 +81,6 @@ $(function () {
         })
 
         .on("scroll", function () {
-            console.log('bioy'); //deleteinbuild
             var $featuredVideo = $("#featured-video"); // 2. The Youtube Video.
             $featuredVideo.toggleClass("is-sticky",
                 $window.scrollTop() > offset && $featuredVideo.hasClass( "is-playing" )
